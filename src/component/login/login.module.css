@@ -1,0 +1,13 @@
+.login {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  background-color: lightgrey;
+}
+.login_box {
+  padding: 2rem 0;
+}
+.btn {
+  padding: 0.4rem;
+  margin: 0.4rem;
+}

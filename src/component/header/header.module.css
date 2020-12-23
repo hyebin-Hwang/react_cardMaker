@@ -1,0 +1,16 @@
+header {
+  background-color: brown;
+  text-align: center;
+  position: relative;
+}
+
+.logout_btn {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  padding: 0.3rem;
+  background-color: rgb(141, 126, 155);
+  outline: none;
+  border: none;
+  color: white;
+}

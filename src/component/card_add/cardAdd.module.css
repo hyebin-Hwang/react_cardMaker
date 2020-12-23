@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+}
+
+input {
+  width: 50%;
+  outline: none;
+  padding: 0.4rem;
+  border: 1px solid grey;
+}
+
+.btn {
+  width: 25%;
+  background-color: lightcoral;
+  border: 1px solid grey;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+.img_btn {
+  position: relative;
+}
+.loading {
+  background-color: lightcoral;
+  width: 25%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loading::after {
+  content: "";
+  position: absolute;
+  border: 2px solid beige;
+  border-top: 2px solid brown;
+  width: 1.3rem;
+  border-radius: 50%;
+  height: 1.3rem;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+}
+
+input {
+  width: 50%;
+  outline: none;
+  padding: 0.4rem;
+  border: 1px solid grey;
+}
+
+.btn {
+  width: 25%;
+  background-color: lightcoral;
+  border: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}

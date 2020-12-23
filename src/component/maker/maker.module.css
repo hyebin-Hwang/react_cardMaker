@@ -1,0 +1,6 @@
+.maker {
+  flex: 1 1 45%;
+  padding: 1rem;
+  height: 100%;
+  overflow-y: auto;
+}
